@@ -26,7 +26,6 @@
   body {
     height: 100%;
     background-image: url(./image1_2.jpg);
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +70,7 @@
     left: 230px;
     top: 200px;
   }
-  @keyframes time {
+  /* @keyframes time {
     0% {
       opacity: 0;
       left: 270px;
@@ -161,5 +160,5 @@
       left: 240px;
       top: 340px;
     }
-  }
+  } */
 }
