@@ -1,108 +1,165 @@
 @media all and (max-width: 1000px) {
-  #events{
+  #events {
     width: 100%;
   }
-  .event img{
+  .event img {
     margin-bottom: 30px;
   }
-  footer{
+  footer {
     text-align: center;
   }
-  .footer{
-    padding-right: 10px; 
-    line-height: normal;  
+  .footer {
+    padding-right: 10px;
+    line-height: normal;
   }
-  .footer p{
-    float: none; 
+  .footer p {
+    float: none;
     padding: 10px 0;
   }
-  .footer a{
+  .footer a {
     float: none;
-    font-size: 12px; 
+    font-size: 12px;
   }
 }
 
-@media all and (max-width: 670px) {
+@media (max-width: 670px) {
+  body {
+    height: 100%;
+    background-image: url(./image1_2.jpg);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .header-right {
     display: none;
   }
-    
+
   nav {
     display: block;
   }
 
-  .deskripsi{
+  .deskripsi {
     margin: auto;
     font-size: 10px;
   }
 
-  .topik h3{
-      position: absolute;
+  .topik h3 {
+    position: absolute;
+    left: 270px;
+    top: 130px;
+  }
+  .organisasi {
+    animation-name: organisasi;
+    left: 110px;
+    top: 200px;
+  }
+
+  @keyframes organisasi {
+    0% {
+      opacity: 0;
       left: 270px;
       top: 130px;
-  }
-  .organisasi{
-      animation-name: organisasi;
+    }
+    100% {
       left: 110px;
       top: 200px;
+    }
   }
-  
-  @keyframes organisasi{
-      0% {opacity: 0; left: 270px; top: 130px;}
-      100% {left: 110px; top: 200px;}
+  .time {
+    animation-name: time;
+    left: 230px;
+    top: 200px;
   }
-  .time{
-      animation-name: time;
+  @keyframes time {
+    0% {
+      opacity: 0;
+      left: 270px;
+      top: 130px;
+    }
+    100% {
       left: 230px;
       top: 200px;
+    }
   }
-  @keyframes time{
-      0% {opacity: 0;  left: 270px; top: 130px;}
-      100% {left: 230px; top: 200px;}
+  .kos {
+    left: 410px;
+    top: 200px;
+    animation-name: kos;
   }
-  .kos{
+  @keyframes kos {
+    0% {
+      opacity: 0;
+      left: 270px;
+      top: 130px;
+    }
+    100% {
       left: 410px;
       top: 200px;
-      animation-name: kos;
+    }
   }
-  @keyframes kos{
-      0% {opacity: 0;  left: 270px; top: 130px;}
-      100% {left: 410px; top: 200px;}
+  .skripsi {
+    left: 180px;
+    top: 270px;
+    animation-name: skripsi;
   }
-  .skripsi{  
+  @keyframes skripsi {
+    0% {
+      opacity: 0;
+      left: 270px;
+      top: 130px;
+    }
+    100% {
       left: 180px;
       top: 270px;
-      animation-name: skripsi;    
+    }
   }
-  @keyframes skripsi{
-      0% {opacity: 0;  left: 270px; top: 130px;}
-      100% {left: 180px; top: 270px;}
+  .pertemanan {
+    left: 280px;
+    top: 270px;
+    animation-name: pertemanan;
   }
-  .pertemanan{
+  @keyframes pertemanan {
+    0% {
+      opacity: 0;
+      left: 270px;
+      top: 130px;
+    }
+    100% {
       left: 280px;
       top: 270px;
-      animation-name: pertemanan;
+    }
   }
-  @keyframes pertemanan{
-      0% {opacity: 0;  left: 270px; top: 130px;}
-      100% {left: 280px; top: 270px;}
+  .prestasi {
+    animation-name: prestasi;
+    left: 410px;
+    top: 270px;
   }
-  .prestasi{
-      animation-name: prestasi;
+  @keyframes prestasi {
+    0% {
+      opacity: 0;
+      left: 270px;
+      top: 130px;
+    }
+    100% {
       left: 410px;
       top: 270px;
+    }
   }
-  @keyframes prestasi{
-      0% {opacity: 0;  left: 270px; top: 130px;}
-      100% {left: 410px; top: 270px;}
+  .dan {
+    left: 240px;
+    top: 340px;
+    animation-name: dan;
   }
-  .dan{
+  @keyframes dan {
+    0% {
+      opacity: 0;
+      left: 270px;
+      top: 130px;
+    }
+    100% {
       left: 240px;
       top: 340px;
-      animation-name: dan;
-  }
-  @keyframes dan{
-      0% {opacity: 0;  left: 270px; top: 130px;}
-      100% {left: 240px; top: 340px;}
+    }
   }
 }
